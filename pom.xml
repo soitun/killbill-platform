@@ -22,7 +22,7 @@
     <parent>
         <groupId>org.kill-bill.billing</groupId>
         <artifactId>killbill-oss-parent</artifactId>
-        <version>0.147.15</version>
+        <version>0.147.27</version>
     </parent>
     <artifactId>killbill-platform</artifactId>
     <version>0.42.3-SNAPSHOT</version>
@@ -57,6 +57,7 @@
         <!-- Bug with maven-deploy-plugin -->
         <deploy.deploy-at-end>false</deploy.deploy-at-end>
         <maven.javadoc.failOnError>false</maven.javadoc.failOnError>
+        <repository.cloudsmith.repo>killbill-platform</repository.cloudsmith.repo>
     </properties>
     <dependencyManagement>
         <dependencies>
